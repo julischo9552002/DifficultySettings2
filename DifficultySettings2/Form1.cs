@@ -41,5 +41,16 @@ namespace DifficultySettings2
             outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "You are average at best. Enjoy taking your " 
                 + difficultyLevel2 + " path.";
         }
+
+        private void hardButton_Click(object sender, EventArgs e)
+        {
+            string heroName;
+            string difficultyLevel3;
+
+            heroName = nameInput.Text;
+            difficultyLevel3 = "hard";
+
+            outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "A true brave hero. Go forth and conquer the " + difficultyLevel3 + " path.";
+        }
     }
 }

@@ -79,6 +79,7 @@
             this.hardButton.TabIndex = 2;
             this.hardButton.Text = "Hard";
             this.hardButton.UseVisualStyleBackColor = false;
+            this.hardButton.Click += new System.EventHandler(this.hardButton_Click);
             // 
             // nameLabel
             // 
