@@ -50,7 +50,7 @@ namespace DifficultySettings2
             heroName = nameInput.Text;
             difficultyLevel3 = "hard";
 
-            outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "A true brave hero. Go forth and conquer the " + difficultyLevel3 + " path.";
+            outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "A true brave hero! Go forth and conquer the " + difficultyLevel3 + " path.";
         }
     }
 }
