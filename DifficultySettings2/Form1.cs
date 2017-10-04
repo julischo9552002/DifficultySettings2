@@ -28,5 +28,18 @@ namespace DifficultySettings2
             outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "Afraid are you? Decided to take the " 
                 + difficultyLevel1 + " path?";
         }
+
+        private void mediumButton_Click(object sender, EventArgs e)
+        {
+            string heroName;
+
+            string difficultyLevel2;
+
+            heroName = nameInput.Text;
+            difficultyLevel2 = "medium";
+
+            outputLabel.Text = "Welcome " + heroName + "!" + "\n" + "You are average at best. Enjoy taking your " 
+                + difficultyLevel2 + " path.";
+        }
     }
 }
